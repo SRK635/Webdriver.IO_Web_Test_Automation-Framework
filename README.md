@@ -25,7 +25,7 @@ Step 8: If you would like to run specific scenario using tags, use the tag (ex:@
 
 **Build and Test:**
 
-Command to run Test: npm run test\
+Command to run Test: npm run test
 
 To Access Test Reports: depop2>allure-results>index.html
 
