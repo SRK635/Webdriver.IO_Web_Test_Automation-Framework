@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628640573848' stop='1628640578543'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628640573867' status='broken' stop='1628640578538'>
+            <name>As a user, I can able to login to the website successfully with my facebook credentials.</name>
+            <title>As a user, I can able to login to the website successfully with my facebook credentials.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628640573872' status='passed' stop='1628640575977'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628640575977' status='passed' stop='1628640576300'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3b535353-85a1-40ff-bd4a-051e4cc6e594-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628640576300' status='passed' stop='1628640576615'>
+                    <name>And I click on Facebook button</name>
+                    <title>And I click on Facebook button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='31f412af-d909-4640-890f-d66886da516c-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628640576615' status='passed' stop='1628640578155'>
+                    <name>And I accept cookies from Facebook</name>
+                    <title>And I accept cookies from Facebook</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c4627e11-dc4e-4a92-91ca-212f47e9eddb-attachment.png' type='image/png' size='54422'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628640578155' status='broken' stop='1628640578538'>
+                    <name>Then I should see Facebook login Page</name>
+                    <title>Then I should see Facebook login Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5d7520d7-a211-492e-8bb8-7350da202665-attachment.png' type='image/png' size='61570'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:216:38
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at LoginPage.validateFacebookPage (C:\Users\prabh\Desktop\depop2\features\pageobjects\login.page.js:110:9)
+                    at World.&lt;anonymous> (C:\Users\prabh\Desktop\depop2\features\step-definitions\steps.js:58:5)
+                    at World.executeAsync (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:284:16)
+                    at World.testFrameworkFnWrapper (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

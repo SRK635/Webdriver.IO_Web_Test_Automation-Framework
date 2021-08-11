@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628639886213' stop='1628639909222'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628639886222' status='passed' stop='1628639909221'>
+            <name>As a user, I can able to login to the website successfully with my facebook credentials.</name>
+            <title>As a user, I can able to login to the website successfully with my facebook credentials.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628639886227' status='passed' stop='1628639888530'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628639888530' status='passed' stop='1628639888817'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='18f3df7b-a0ec-4b7f-9101-0196a9a94820-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628639888817' status='passed' stop='1628639909218'>
+                    <name>And I click on Facebook button</name>
+                    <title>And I click on Facebook button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='977d964c-5eb5-4271-9822-f5fe67ccec3a-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

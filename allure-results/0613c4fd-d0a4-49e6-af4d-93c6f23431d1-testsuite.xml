@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628637865004' stop='1628637887612'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628637865014' status='broken' stop='1628637887608'>
+            <name>As a user, I can able to login to the website successfully with my facebook credentials.</name>
+            <title>As a user, I can able to login to the website successfully with my facebook credentials.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628637865019' status='passed' stop='1628637867177'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628637867177' status='passed' stop='1628637867397'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d18e2356-e510-45d2-96b1-578fd723824a-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628637867397' status='broken' stop='1628637887607'>
+                    <name>And I click on Facebook button</name>
+                    <title>And I click on Facebook button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='38b093b5-e8d7-4bc4-8ae1-685406550b2e-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "//button[@data-testid="cookie-policy-dialog-accept-button"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//button[@data-testid="cookie-policy-dialog-accept-button"]" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\prabh\Desktop\depop2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

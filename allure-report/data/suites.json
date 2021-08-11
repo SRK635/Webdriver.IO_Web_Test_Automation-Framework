@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login functionality",
+    "children" : [ {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "9232293068d69786",
+      "parentUid" : "1d724e2421c677a0c20c8dd75b400c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629655785,
+        "stop" : 1628629658195,
+        "duration" : 2410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
+      "uid" : "2f259cf9789ed26c",
+      "parentUid" : "1d724e2421c677a0c20c8dd75b400c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628630244463,
+        "stop" : 1628630247596,
+        "duration" : 3133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "9fffaa7ee6159e28",
+      "parentUid" : "1d724e2421c677a0c20c8dd75b400c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628632452085,
+        "stop" : 1628632457184,
+        "duration" : 5099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "f378b8fcaeba80ac",
+      "parentUid" : "1d724e2421c677a0c20c8dd75b400c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628640658884,
+        "stop" : 1628640663851,
+        "duration" : 4967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
+      "uid" : "6e532f532e79d76a",
+      "parentUid" : "1d724e2421c677a0c20c8dd75b400c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628715144098,
+        "stop" : 1628715148275,
+        "duration" : 4177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "1d724e2421c677a0c20c8dd75b400c49"
+  } ]
+}

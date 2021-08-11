@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628630963527' stop='1628630966768'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628630963538' status='broken' stop='1628630966762'>
+            <name>As a user, I can able to see the Password when I click on Show Password button in Password Field.</name>
+            <title>As a user, I can able to see the Password when I click on Show Password button in Password Field.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628630963542' status='passed' stop='1628630965954'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628630965954' status='passed' stop='1628630966202'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='662eb8d7-e330-48e5-a747-fa6e98abcb23-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628630966202' status='passed' stop='1628630966556'>
+                    <name>And I enter asdf and j@1</name>
+                    <title>And I enter asdf and j@1</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f95de8a4-a6cd-4526-8d0b-ce76f7288abf-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628630966556' status='broken' stop='1628630966762'>
+                    <name>Then I validate show password functionality using j@1</name>
+                    <title>Then I validate show password functionality using j@1</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c241193c-dc26-4243-8ced-18d07450241b-attachment.png' type='image/png' size='55753'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable: element has zero size</message>
+                <stack-trace>element not interactable: element has zero size
+                  (Session info: chrome=92.0.4515.131)
+                Backtrace:
+                	Ordinal0 [0x00802A33+2501171]
+                	Ordinal0 [0x0079D1C1+2085313]
+                	Ordinal0 [0x006A1FA8+1056680]
+                	Ordinal0 [0x006CD748+1234760]
+                	Ordinal0 [0x006C31B7+1192375]
+                	Ordinal0 [0x006E5653+1332819]
+                	Ordinal0 [0x006C2FD6+1191894]
+                	Ordinal0 [0x006E573A+1333050]
+                	Ordinal0 [0x006F48BC+1394876]
+                	Ordinal0 [0x006E551B+1332507]
+                	Ordinal0 [0x006C1D74+1187188]
+                	Ordinal0 [0x006C2BD9+1190873]
+                	GetHandleVerifier [0x0097EFE6+1504438]
+                	GetHandleVerifier [0x00A2DDA5+2220661]
+                	GetHandleVerifier [0x00885589+481881]
+                	GetHandleVerifier [0x00884639+477961]
+                	Ordinal0 [0x007A28BD+2107581]
+                	Ordinal0 [0x007A6728+2123560]
+                	Ordinal0 [0x007A6862+2123874]
+                	Ordinal0 [0x007AFA81+2161281]
+                	BaseThreadInitThunk [0x766BFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x772C7A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x772C7A4E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

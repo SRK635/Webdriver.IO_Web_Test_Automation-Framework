@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628640227444' stop='1628640232205'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628640227461' status='broken' stop='1628640232199'>
+            <name>As a user, I can able to login to the website successfully with my facebook credentials.</name>
+            <title>As a user, I can able to login to the website successfully with my facebook credentials.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628640227467' status='passed' stop='1628640230153'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628640230153' status='passed' stop='1628640230481'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5b0eff3d-51ac-4c3e-9506-5f4060c1b578-attachment.png' type='image/png' size='79247'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628640230481' status='passed' stop='1628640230766'>
+                    <name>And I click on Facebook button</name>
+                    <title>And I click on Facebook button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fff5eb53-7b5d-4b73-a13a-0445078d9145-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628640230766' status='passed' stop='1628640232196'>
+                    <name>And I accept cookies from Facebook</name>
+                    <title>And I accept cookies from Facebook</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='64ae1015-fd23-46da-a889-51a645254480-attachment.png' type='image/png' size='54413'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628640232197' status='broken' stop='1628640232199'>
+                    <name>Then I should see Facebook login Page</name>
+                    <title>Then I should see Facebook login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I should see Facebook login Page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see Facebook login Page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\prabh\Desktop\depop2\features\login.feature):1:1
+                	at Scenario(As a user, I can able to login to the website successfully with my facebook credentials.):64:3
+                	at Step(I should see Facebook login Page):70:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

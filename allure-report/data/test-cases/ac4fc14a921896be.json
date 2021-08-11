@@ -1,0 +1,170 @@
+{
+  "uid" : "ac4fc14a921896be",
+  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+  "fullName" : "Login functionality.As a user, I can able to login to the website successfully with my facebook credentials.",
+  "historyId" : "b25b680c9ab494cf8ad428c5637501d",
+  "time" : {
+    "start" : 1628640573867,
+    "stop" : 1628640578538,
+    "duration" : 4671
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: elem[prop] is not a function",
+  "statusTrace" : "TypeError: elem[prop] is not a function\n                    at C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:216:38\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at LoginPage.validateFacebookPage (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:110:9)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:58:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: elem[prop] is not a function",
+    "statusTrace" : "TypeError: elem[prop] is not a function\n                    at C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:216:38\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at LoginPage.validateFacebookPage (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:110:9)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:58:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628640573872,
+        "stop" : 1628640575977,
+        "duration" : 2105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628640575977,
+        "stop" : 1628640576300,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c47f6f8960988160",
+        "name" : "Screenshot",
+        "source" : "c47f6f8960988160.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And I click on Facebook button",
+      "time" : {
+        "start" : 1628640576300,
+        "stop" : 1628640576615,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67487e0d3a74a917",
+        "name" : "Screenshot",
+        "source" : "67487e0d3a74a917.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And I accept cookies from Facebook",
+      "time" : {
+        "start" : 1628640576615,
+        "stop" : 1628640578155,
+        "duration" : 1540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2caefcb548fcb90",
+        "name" : "Screenshot",
+        "source" : "2caefcb548fcb90.png",
+        "type" : "image/png",
+        "size" : 54422
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Facebook login Page",
+      "time" : {
+        "start" : 1628640578155,
+        "stop" : 1628640578538,
+        "duration" : 383
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: elem[prop] is not a function\n                    at C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:216:38\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at LoginPage.validateFacebookPage (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:110:9)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:58:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1473c7d62d50d739",
+        "name" : "Screenshot",
+        "source" : "1473c7d62d50d739.png",
+        "type" : "image/png",
+        "size" : 61570
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to login to the website successfully with my facebook credentials."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac4fc14a921896be.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

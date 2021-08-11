@@ -1,0 +1,218 @@
+{
+  "uid" : "9232293068d69786",
+  "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+  "fullName" : "Login functionality.As a user, I can't able to login to the website when I enter invalid credentials",
+  "historyId" : "7f497b5d448a4a20ceba569a2b50d4b6",
+  "time" : {
+    "start" : 1628629655785,
+    "stop" : 1628629658195,
+    "duration" : 2410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628629655786,
+        "stop" : 1628629657133,
+        "duration" : 1347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628629657133,
+        "stop" : 1628629657165,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And I login with justsivaramakrishna@gmail.coms and August@95051",
+      "time" : {
+        "start" : 1628629657166,
+        "stop" : 1628629657616,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see login error message",
+      "time" : {
+        "start" : 1628629657616,
+        "stop" : 1628629658195,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can't able to login to the website when I enter invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42d0b907d91f7ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629653822,
+        "stop" : 1628629655785,
+        "duration" : 1963
+      }
+    }, {
+      "uid" : "82a39d2aaed95cea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629650273,
+        "stop" : 1628629653822,
+        "duration" : 3549
+      }
+    }, {
+      "uid" : "81084179d5ae54b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629638063,
+        "stop" : 1628629640880,
+        "duration" : 2817
+      }
+    }, {
+      "uid" : "adbd9cf94de4178e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629635271,
+        "stop" : 1628629638063,
+        "duration" : 2792
+      }
+    }, {
+      "uid" : "cba889a1f2b7f2bb",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf",
+      "time" : {
+        "start" : 1628629631967,
+        "stop" : 1628629635269,
+        "duration" : 3302
+      }
+    }, {
+      "uid" : "8e5421aeef1b64de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629530698,
+        "stop" : 1628629534031,
+        "duration" : 3333
+      }
+    }, {
+      "uid" : "cd9564586d31051e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629528552,
+        "stop" : 1628629530698,
+        "duration" : 2146
+      }
+    }, {
+      "uid" : "eedc8c96614dfe6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629524948,
+        "stop" : 1628629528551,
+        "duration" : 3603
+      }
+    }, {
+      "uid" : "3b1bf4b72465aba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629344803,
+        "stop" : 1628629346343,
+        "duration" : 1540
+      }
+    }, {
+      "uid" : "c941ffb834c2ddec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629342119,
+        "stop" : 1628629344803,
+        "duration" : 2684
+      }
+    }, {
+      "uid" : "69c922e541301951",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf",
+      "time" : {
+        "start" : 1628629339074,
+        "stop" : 1628629342116,
+        "duration" : 3042
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9232293068d69786.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

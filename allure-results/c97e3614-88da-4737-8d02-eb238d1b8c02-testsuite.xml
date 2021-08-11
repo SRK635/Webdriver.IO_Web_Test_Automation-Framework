@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628631086864' stop='1628631091715'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628631086876' status='failed' stop='1628631091711'>
+            <name>As a user, I can able to see the Password when I click on Show Password button in Password Field.</name>
+            <title>As a user, I can able to see the Password when I click on Show Password button in Password Field.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628631086881' status='passed' stop='1628631090908'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628631090908' status='passed' stop='1628631091148'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='58bbda48-d5aa-451d-8af7-64de1c7b0f02-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628631091149' status='passed' stop='1628631091469'>
+                    <name>And I enter asdf and j@1</name>
+                    <title>And I enter asdf and j@1</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f9cfff05-9aed-4c24-8de8-7d81ed789b74-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628631091469' status='failed' stop='1628631091711'>
+                    <name>Then I validate show password functionality using j@1</name>
+                    <title>Then I validate show password functionality using j@1</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2f16e7a1-fe36-47da-b844-643b9b111e18-attachment.png' type='image/png' size='55666'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "j@1"
+                Received: ""
+                    at LoginPage.validateShowPassword (C:\Users\prabh\Desktop\depop2\features\pageobjects\login.page.js:63:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at World.&lt;anonymous> (C:\Users\prabh\Desktop\depop2\features\step-definitions\steps.js:26:5)
+                    at World.executeAsync (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:284:16)
+                    at World.testFrameworkFnWrapper (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

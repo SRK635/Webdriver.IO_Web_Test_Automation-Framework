@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628629650262' stop='1628629658198'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628629650273' status='passed' stop='1628629653822'>
+            <name>As a user, I can't able to login to the website when I enter invalid credentials</name>
+            <title>As a user, I can't able to login to the website when I enter invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628629650277' status='passed' stop='1628629652710'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629652710' status='passed' stop='1628629652815'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629652816' status='passed' stop='1628629653260'>
+                    <name>And I login with justsivaramakrishna@gmail.com and August@95051</name>
+                    <title>And I login with justsivaramakrishna@gmail.com and August@95051</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629653260' status='passed' stop='1628629653821'>
+                    <name>Then I should see login error message</name>
+                    <title>Then I should see login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1628629653822' status='passed' stop='1628629655785'>
+            <name>As a user, I can't able to login to the website when I enter invalid credentials</name>
+            <title>As a user, I can't able to login to the website when I enter invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628629653823' status='passed' stop='1628629655302'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629655303' status='passed' stop='1628629655324'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629655325' status='passed' stop='1628629655696'>
+                    <name>And I login with justsivaramakrishna@gmail.coms and August@95057</name>
+                    <title>And I login with justsivaramakrishna@gmail.coms and August@95057</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629655696' status='passed' stop='1628629655785'>
+                    <name>Then I should see login error message</name>
+                    <title>Then I should see login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1628629655785' status='passed' stop='1628629658195'>
+            <name>As a user, I can't able to login to the website when I enter invalid credentials</name>
+            <title>As a user, I can't able to login to the website when I enter invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628629655786' status='passed' stop='1628629657133'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629657133' status='passed' stop='1628629657165'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629657166' status='passed' stop='1628629657616'>
+                    <name>And I login with justsivaramakrishna@gmail.coms and August@95051</name>
+                    <title>And I login with justsivaramakrishna@gmail.coms and August@95051</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629657616' status='passed' stop='1628629658195'>
+                    <name>Then I should see login error message</name>
+                    <title>Then I should see login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

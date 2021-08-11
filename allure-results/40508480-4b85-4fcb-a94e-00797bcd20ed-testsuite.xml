@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628715026827' stop='1628715029041'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628715026834' status='broken' stop='1628715029038'>
+            <name>As a user, I can able to Reset my Password using Forgot Password Link</name>
+            <title>As a user, I can able to Reset my Password using Forgot Password Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628715026837' status='passed' stop='1628715028804'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628715028805' status='passed' stop='1628715029032'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b44fa222-551d-4ef7-be26-d1b80808a1df-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628715029032' status='broken' stop='1628715029038'>
+                    <name>And I click on Forgot Password</name>
+                    <title>And I click on Forgot Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628715029039' status='canceled' stop='1628715029039'>
+                    <name>Then I should see Password Problems page</name>
+                    <title>Then I should see Password Problems page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at LoginPage.forgotPassword (C:\Users\prabh\Desktop\depop2\features\pageobjects\login.page.js:46:38)
+                    at World.&lt;anonymous> (C:\Users\prabh\Desktop\depop2\features\step-definitions\steps.js:42:21)
+                    at World.executeAsync (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:284:25)
+                    at World.testFrameworkFnWrapper (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

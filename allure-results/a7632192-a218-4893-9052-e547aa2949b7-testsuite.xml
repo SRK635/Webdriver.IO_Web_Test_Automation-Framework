@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628629339066' stop='1628629346348'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628629339074' status='failed' stop='1628629342116'>
+            <name>As a user, I can't able to login to the website when I enter invalid credentials</name>
+            <title>As a user, I can't able to login to the website when I enter invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628629339077' status='passed' stop='1628629341008'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629341008' status='passed' stop='1628629341105'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629341105' status='passed' stop='1628629341513'>
+                    <name>And I login with justsivaramakrishna@gmail.com and August@95051</name>
+                    <title>And I login with justsivaramakrishna@gmail.com and August@95051</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629341513' status='failed' stop='1628629342116'>
+                    <name>Then I should see login error message</name>
+                    <title>Then I should see login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toContain(expected) // indexOf</message>
+                <stack-trace>Error: expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "We couldn't verify that you're not a robot. Try opening the app again."
+                Received string:    "Incorrect username or password. Check your details and try again."
+                    at LoginPage.validateLoginServerError (C:\Users\prabh\Desktop\depop2\features\pageobjects\login.page.js:51:35)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at World.&lt;anonymous> (C:\Users\prabh\Desktop\depop2\features\step-definitions\steps.js:26:5)
+                    at World.executeAsync (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:284:16)
+                    at World.testFrameworkFnWrapper (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628629342119' status='passed' stop='1628629344803'>
+            <name>As a user, I can't able to login to the website when I enter invalid credentials</name>
+            <title>As a user, I can't able to login to the website when I enter invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628629342120' status='passed' stop='1628629343879'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629343879' status='passed' stop='1628629343901'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629343901' status='passed' stop='1628629344243'>
+                    <name>And I login with justsivaramakrishna@gmail.coms and August@95057</name>
+                    <title>And I login with justsivaramakrishna@gmail.coms and August@95057</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629344243' status='passed' stop='1628629344802'>
+                    <name>Then I should see login error message</name>
+                    <title>Then I should see login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1628629344803' status='passed' stop='1628629346343'>
+            <name>As a user, I can't able to login to the website when I enter invalid credentials</name>
+            <title>As a user, I can't able to login to the website when I enter invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628629344804' status='passed' stop='1628629345824'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629345825' status='passed' stop='1628629345852'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629345852' status='passed' stop='1628629346269'>
+                    <name>And I login with justsivaramakrishna@gmail.coms and August@95051</name>
+                    <title>And I login with justsivaramakrishna@gmail.coms and August@95051</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628629346269' status='passed' stop='1628629346343'>
+                    <name>Then I should see login error message</name>
+                    <title>Then I should see login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

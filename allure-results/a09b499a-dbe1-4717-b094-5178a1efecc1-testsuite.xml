@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628630207415' stop='1628630210384'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628630207427' status='passed' stop='1628630210381'>
+            <name>As a user, I can't able to login to the website when I left blank Username and Password fields.</name>
+            <title>As a user, I can't able to login to the website when I left blank Username and Password fields.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628630207432' status='passed' stop='1628630209930'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628630209930' status='passed' stop='1628630210044'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628630210044' status='passed' stop='1628630210327'>
+                    <name>And I login with  and</name>
+                    <title>And I login with  and</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628630210327' status='passed' stop='1628630210379'>
+                    <name>Then I should see credentials required error message</name>
+                    <title>Then I should see credentials required error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

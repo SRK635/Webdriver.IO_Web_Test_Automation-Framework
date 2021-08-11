@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628639589047' stop='1628639611636'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628639589055' status='broken' stop='1628639611632'>
+            <name>As a user, I can able to login to the website successfully with my facebook credentials.</name>
+            <title>As a user, I can able to login to the website successfully with my facebook credentials.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628639589059' status='passed' stop='1628639591233'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628639591234' status='passed' stop='1628639591449'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1db2c6f8-930a-480d-9062-b43be8369801-attachment.png' type='image/png' size='79247'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628639591449' status='broken' stop='1628639611632'>
+                    <name>And I click on Facebook button</name>
+                    <title>And I click on Facebook button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2218bcbc-4ffa-4086-8a8a-29c985b3dd2f-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization
+                    at C:\Users\prabh\Desktop\depop2\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15
+                    at Browser.wrapCommandFn (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:103:29)
+                    at LoginPage.clickFacebook (C:\Users\prabh\Desktop\depop2\features\pageobjects\login.page.js:93:29)
+                    at World.&lt;anonymous> (C:\Users\prabh\Desktop\depop2\features\step-definitions\steps.js:50:5)
+                    at World.executeAsync (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\shim.js:284:16)
+                    at World.testFrameworkFnWrapper (C:\Users\prabh\Desktop\depop2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

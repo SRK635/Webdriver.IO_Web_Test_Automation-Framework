@@ -1,0 +1,9 @@
+{
+  "expectedServerError": "Incorrect username or password. Check your details and try again.",
+  "expectedUsernameError": "Username or email is required",
+  "expectedPasswordError": "Password is required",
+  "expectedTextAttribute": "text",
+  "expectedPasswordAttribute": "password",
+  "expectedPasswordProblemPageContent": "Password Problems?",
+  "expectedLoginFacebookWith": "Depop"
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "6e532f532e79d76a",
+  "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
+  "fullName" : "Login functionality.As a user, I can able to Reset my Password using Forgot Password Link",
+  "historyId" : "40fee9666b435f7a756ca56d4dc45ecb",
+  "time" : {
+    "start" : 1628715144098,
+    "stop" : 1628715148275,
+    "duration" : 4177
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628715144107,
+        "stop" : 1628715147074,
+        "duration" : 2967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628715147074,
+        "stop" : 1628715147332,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "171a303f92cfe54c",
+        "name" : "Screenshot",
+        "source" : "171a303f92cfe54c.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And I click on Forgot Password",
+      "time" : {
+        "start" : 1628715147332,
+        "stop" : 1628715147565,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14b485a4ea35ca6b",
+        "name" : "Screenshot",
+        "source" : "14b485a4ea35ca6b.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Password Problems page",
+      "time" : {
+        "start" : 1628715147565,
+        "stop" : 1628715148272,
+        "duration" : 707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2a6ce9becfe90da",
+        "name" : "Screenshot",
+        "source" : "a2a6ce9becfe90da.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to Reset my Password using Forgot Password Link"
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6c3b2bfd39f84235",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1628715026834,
+        "stop" : 1628715029038,
+        "duration" : 2204
+      }
+    }, {
+      "uid" : "739789b1c3ea114a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637019864,
+        "stop" : 1628637023015,
+        "duration" : 3151
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e532f532e79d76a.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

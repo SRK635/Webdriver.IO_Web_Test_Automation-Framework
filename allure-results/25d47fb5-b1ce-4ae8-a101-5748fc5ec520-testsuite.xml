@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628632391479' stop='1628632394520'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628632391492' status='passed' stop='1628632394519'>
+            <name>As a user, I can able to see the Password when I click on Show Password button in Password Field.</name>
+            <title>As a user, I can able to see the Password when I click on Show Password button in Password Field.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628632391496' status='passed' stop='1628632393554'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628632393554' status='passed' stop='1628632393777'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8a200d41-0868-4399-9e3f-2650a913aedc-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628632393778' status='passed' stop='1628632394120'>
+                    <name>And I enter asdf and j@1</name>
+                    <title>And I enter asdf and j@1</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='50837531-f5cf-43c1-a867-a570080463ce-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628632394120' status='passed' stop='1628632394294'>
+                    <name>Then I validate hide password functionality</name>
+                    <title>Then I validate hide password functionality</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='af8f6667-1cd9-472e-86fe-fdcdd1cf89be-attachment.png' type='image/png' size='55563'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628632394294' status='passed' stop='1628632394518'>
+                    <name>And I validate show password functionality</name>
+                    <title>And I validate show password functionality</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d3366ae3-8f35-4c3e-8f47-63f852269b8e-attachment.png' type='image/png' size='53227'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

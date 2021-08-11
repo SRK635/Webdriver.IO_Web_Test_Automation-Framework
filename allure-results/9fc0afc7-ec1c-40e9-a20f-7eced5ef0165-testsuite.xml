@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628715144082' stop='1628715148277'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628715144098' status='passed' stop='1628715148275'>
+            <name>As a user, I can able to Reset my Password using Forgot Password Link</name>
+            <title>As a user, I can able to Reset my Password using Forgot Password Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628715144107' status='passed' stop='1628715147074'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628715147074' status='passed' stop='1628715147332'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d157ac0d-e12a-4884-a90d-bae7d9455c70-attachment.png' type='image/png' size='79223'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628715147332' status='passed' stop='1628715147565'>
+                    <name>And I click on Forgot Password</name>
+                    <title>And I click on Forgot Password</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='60dc06d4-2633-4e44-80fe-e3baad9c7341-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628715147565' status='passed' stop='1628715148272'>
+                    <name>Then I should see Password Problems page</name>
+                    <title>Then I should see Password Problems page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a479cf10-c7b8-4bb2-9699-0c198a849789-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,144 @@
+{
+  "uid" : "9a898af7d1975ed0",
+  "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "fullName" : "Login functionality.As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "historyId" : "a10be81fd7452501ec05c5b754f8d38",
+  "time" : {
+    "start" : 1628631448026,
+    "stop" : 1628631452395,
+    "duration" : 4369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628631448030,
+        "stop" : 1628631451659,
+        "duration" : 3629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628631451659,
+        "stop" : 1628631451907,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28b363666516a04c",
+        "name" : "Screenshot",
+        "source" : "28b363666516a04c.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And I enter asdf and j@1",
+      "time" : {
+        "start" : 1628631451907,
+        "stop" : 1628631452241,
+        "duration" : 334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d768d50a99d17b81",
+        "name" : "Screenshot",
+        "source" : "d768d50a99d17b81.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then I validate show password functionality using j@1",
+      "time" : {
+        "start" : 1628631452241,
+        "stop" : 1628631452394,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "206d23fbcc2c27e",
+        "name" : "Screenshot",
+        "source" : "206d23fbcc2c27e.png",
+        "type" : "image/png",
+        "size" : 55347
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to see the Password when I click on Show Password button in Password Field."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a898af7d1975ed0.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}
