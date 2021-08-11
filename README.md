@@ -15,7 +15,7 @@ IDE: Webstorm 2021.2
 **Setup Procedure in Local Machine:**
 
 Step 1: Check for the Pre Requisite Softwares in your local system and install if anything missing from the list. \
-Step 2: Clone the project to your local system using the command: "git clone git@github.com:SRK635/Webdriver.IO_Web_Test_Automation-Framework.git" \
+Step 2: Clone the project to your local system \
 Step 3: Open the project with IDE \
 Step 4: Install the node module dependencies using the command: npm install \
 Step 5: Execute the Command to run Test: "npm run test" in IDE terminal \
