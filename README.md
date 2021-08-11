@@ -5,8 +5,8 @@ TODO: This is WebdriverIO based Web Test Automation Framework to automate the UI
 
 **Pre Requisite Softwares:**
 
-Java: Version "1.8.0_261"
-Node.JS Version: "v.12.18.3"
+Java: Version "1.8.0_261" \
+Node.JS Version: "v.12.18.3" \
 npm Version: 6.14.6
 Version Control: git version 2.30.0.windows.1
 Chrome Browser: Version 92.0.4515.131 (Official Build) (64-bit)
