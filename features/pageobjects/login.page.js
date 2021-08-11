@@ -98,7 +98,7 @@ class LoginPage extends Page {
                     {
                         timeout: 15000,
                         timeoutMsg: 'expected new window handle to be present',
-                        interval: 1000,
+                        interval: 2000,
                     }
             ));
         const windowHandles = await browser.getWindowHandles();

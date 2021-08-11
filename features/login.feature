@@ -53,15 +53,6 @@ Feature:  Login functionality
       | username | password |
       | asdf     | j@1      |
 
-  @srk
-  Scenario: As a user, I can able to Reset my Password using Forgot Password Link
-
-    Given I am on the login page
-    When I accept cookies
-    And I click on Forgot Password
-    Then I should see Password Problems page
-
-
   Scenario: As a user, I can able to login to the website successfully with my facebook credentials.
 
     Given I am on the login page

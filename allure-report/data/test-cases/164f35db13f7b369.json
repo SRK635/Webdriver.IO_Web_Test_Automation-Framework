@@ -1,0 +1,149 @@
+{
+  "uid" : "164f35db13f7b369",
+  "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "fullName" : "Login functionality.As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "historyId" : "a10be81fd7452501ec05c5b754f8d38",
+  "time" : {
+    "start" : 1628630963538,
+    "stop" : 1628630966762,
+    "duration" : 3224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable: element has zero size",
+  "statusTrace" : "element not interactable: element has zero size\n                  (Session info: chrome=92.0.4515.131)\n                Backtrace:\n                \tOrdinal0 [0x00802A33+2501171]\n                \tOrdinal0 [0x0079D1C1+2085313]\n                \tOrdinal0 [0x006A1FA8+1056680]\n                \tOrdinal0 [0x006CD748+1234760]\n                \tOrdinal0 [0x006C31B7+1192375]\n                \tOrdinal0 [0x006E5653+1332819]\n                \tOrdinal0 [0x006C2FD6+1191894]\n                \tOrdinal0 [0x006E573A+1333050]\n                \tOrdinal0 [0x006F48BC+1394876]\n                \tOrdinal0 [0x006E551B+1332507]\n                \tOrdinal0 [0x006C1D74+1187188]\n                \tOrdinal0 [0x006C2BD9+1190873]\n                \tGetHandleVerifier [0x0097EFE6+1504438]\n                \tGetHandleVerifier [0x00A2DDA5+2220661]\n                \tGetHandleVerifier [0x00885589+481881]\n                \tGetHandleVerifier [0x00884639+477961]\n                \tOrdinal0 [0x007A28BD+2107581]\n                \tOrdinal0 [0x007A6728+2123560]\n                \tOrdinal0 [0x007A6862+2123874]\n                \tOrdinal0 [0x007AFA81+2161281]\n                \tBaseThreadInitThunk [0x766BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x772C7A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x772C7A4E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable: element has zero size",
+    "statusTrace" : "element not interactable: element has zero size\n                  (Session info: chrome=92.0.4515.131)\n                Backtrace:\n                \tOrdinal0 [0x00802A33+2501171]\n                \tOrdinal0 [0x0079D1C1+2085313]\n                \tOrdinal0 [0x006A1FA8+1056680]\n                \tOrdinal0 [0x006CD748+1234760]\n                \tOrdinal0 [0x006C31B7+1192375]\n                \tOrdinal0 [0x006E5653+1332819]\n                \tOrdinal0 [0x006C2FD6+1191894]\n                \tOrdinal0 [0x006E573A+1333050]\n                \tOrdinal0 [0x006F48BC+1394876]\n                \tOrdinal0 [0x006E551B+1332507]\n                \tOrdinal0 [0x006C1D74+1187188]\n                \tOrdinal0 [0x006C2BD9+1190873]\n                \tGetHandleVerifier [0x0097EFE6+1504438]\n                \tGetHandleVerifier [0x00A2DDA5+2220661]\n                \tGetHandleVerifier [0x00885589+481881]\n                \tGetHandleVerifier [0x00884639+477961]\n                \tOrdinal0 [0x007A28BD+2107581]\n                \tOrdinal0 [0x007A6728+2123560]\n                \tOrdinal0 [0x007A6862+2123874]\n                \tOrdinal0 [0x007AFA81+2161281]\n                \tBaseThreadInitThunk [0x766BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x772C7A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x772C7A4E+238]\n                ",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628630963542,
+        "stop" : 1628630965954,
+        "duration" : 2412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628630965954,
+        "stop" : 1628630966202,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39cdd58dfb7e8865",
+        "name" : "Screenshot",
+        "source" : "39cdd58dfb7e8865.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter asdf and j@1",
+      "time" : {
+        "start" : 1628630966202,
+        "stop" : 1628630966556,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33c7649c37da97fe",
+        "name" : "Screenshot",
+        "source" : "33c7649c37da97fe.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I validate show password functionality using j@1",
+      "time" : {
+        "start" : 1628630966556,
+        "stop" : 1628630966762,
+        "duration" : 206
+      },
+      "status" : "broken",
+      "statusMessage" : "element not interactable: element has zero size\n                  (Session info: chrome=92.0.4515.131)\n                Backtrace:\n                \tOrdinal0 [0x00802A33+2501171]\n                \tOrdinal0 [0x0079D1C1+2085313]\n                \tOrdinal0 [0x006A1FA8+1056680]\n                \tOrdinal0 [0x006CD748+1234760]\n                \tOrdinal0 [0x006C31B7+1192375]\n                \tOrdinal0 [0x006E5653+1332819]\n                \tOrdinal0 [0x006C2FD6+1191894]\n                \tOrdinal0 [0x006E573A+1333050]\n                \tOrdinal0 [0x006F48BC+1394876]\n                \tOrdinal0 [0x006E551B+1332507]\n                \tOrdinal0 [0x006C1D74+1187188]\n                \tOrdinal0 [0x006C2BD9+1190873]\n                \tGetHandleVerifier [0x0097EFE6+1504438]\n                \tGetHandleVerifier [0x00A2DDA5+2220661]\n                \tGetHandleVerifier [0x00885589+481881]\n                \tGetHandleVerifier [0x00884639+477961]\n                \tOrdinal0 [0x007A28BD+2107581]\n                \tOrdinal0 [0x007A6728+2123560]\n                \tOrdinal0 [0x007A6862+2123874]\n                \tOrdinal0 [0x007AFA81+2161281]\n                \tBaseThreadInitThunk [0x766BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x772C7A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x772C7A4E+238]\n                ",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77af95c2374f7192",
+        "name" : "Screenshot",
+        "source" : "77af95c2374f7192.png",
+        "type" : "image/png",
+        "size" : 55753
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to see the Password when I click on Show Password button in Password Field."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "164f35db13f7b369.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

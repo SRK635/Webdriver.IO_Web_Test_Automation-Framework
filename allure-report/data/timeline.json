@@ -1,375 +1,10 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "f9e63138c9a08640",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628639289769,
-        "stop" : 1628639302185,
-        "duration" : 12416
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
       "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "82a39d2aaed95cea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629650273,
-        "stop" : 1628629653822,
-        "duration" : 3549
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "76b782c8e93603d5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628630963538,
-        "stop" : 1628630966762,
-        "duration" : 3224
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "d39e8b62cc34b577",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628639431190,
-        "stop" : 1628639444347,
-        "duration" : 13157
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "7966924742012ef1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628631793850,
-        "stop" : 1628631797305,
-        "duration" : 3455
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "1e82bbfc3b4a8ca5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628632391492,
-        "stop" : 1628632394519,
-        "duration" : 3027
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
-      "uid" : "2f259cf9789ed26c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628630244463,
-        "stop" : 1628630247596,
-        "duration" : 3133
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "8e5421aeef1b64de",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629530698,
-        "stop" : 1628629534031,
-        "duration" : 3333
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "cd9564586d31051e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629528552,
-        "stop" : 1628629530698,
-        "duration" : 2146
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "9a898af7d1975ed0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628631448026,
-        "stop" : 1628631452395,
-        "duration" : 4369
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "d4206e1c2b2b9ced",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628638152247,
-        "stop" : 1628638174675,
-        "duration" : 22428
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "503e1ba5e9847b57",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628640271884,
-        "stop" : 1628640276410,
-        "duration" : 4526
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "883f74d2f6a2759b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628639589055,
-        "stop" : 1628639611632,
-        "duration" : 22577
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
-      "uid" : "739789b1c3ea114a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628637019864,
-        "stop" : 1628637023015,
-        "duration" : 3151
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "85b2c59a99cf0388",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628638110662,
-        "stop" : 1628638143064,
-        "duration" : 32402
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "9232293068d69786",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629655785,
-        "stop" : 1628629658195,
-        "duration" : 2410
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "f8b6df89e6ca7a7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628639668824,
-        "stop" : 1628639691020,
-        "duration" : 22196
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "cd8d2b0e3c97b529",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628637865014,
-        "stop" : 1628637887608,
-        "duration" : 22594
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "60ed700e57acd854",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628638880162,
-        "stop" : 1628638902557,
-        "duration" : 22395
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "c941ffb834c2ddec",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629342119,
-        "stop" : 1628629344803,
-        "duration" : 2684
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "29a299c1a3f58fa1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628639338183,
-        "stop" : 1628639350550,
-        "duration" : 12367
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "94a922b01146d13d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1628631208528,
-        "stop" : 1628631212390,
-        "duration" : 3862
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
-      "uid" : "9f0175b5c537194d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628630207427,
-        "stop" : 1628630210381,
-        "duration" : 2954
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "aaf5ee27a28d3195",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628639092295,
-        "stop" : 1628639104983,
-        "duration" : 12688
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "42d0b907d91f7ef5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629653822,
-        "stop" : 1628629655785,
-        "duration" : 1963
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "5c9535e6e935be72",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628637976589,
-        "stop" : 1628637998599,
-        "duration" : 22010
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "5a256a4ae97d9999",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628637717266,
-        "stop" : 1628637739783,
-        "duration" : 22517
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "e0dc8c3d722130fb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628631248749,
-        "stop" : 1628631251940,
-        "duration" : 3191
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "eedc8c96614dfe6f",
+      "uid" : "cf49880f371a95bd",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -382,72 +17,46 @@
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "a684e5d56debd5ba",
+      "uid" : "e65578ae00478bc0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628638880162,
+        "stop" : 1628638902557,
+        "duration" : 22395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "4e22f1e2a121642e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628719828818,
+        "stop" : 1628719834872,
+        "duration" : 6054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "7481ad713717a0b8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1628640227461,
-        "stop" : 1628640232199,
-        "duration" : 4738
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
-      "uid" : "6e532f532e79d76a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628715144098,
-        "stop" : 1628715148275,
-        "duration" : 4177
+        "start" : 1628637865014,
+        "stop" : 1628637887608,
+        "duration" : 22594
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "9359b69b27843c13",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628639798706,
-        "stop" : 1628639821682,
-        "duration" : 22976
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "6e689496b0014fce",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628638273069,
-        "stop" : 1628638295556,
-        "duration" : 22487
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "9fffaa7ee6159e28",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628632452085,
-        "stop" : 1628632457184,
-        "duration" : 5099
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "cc81cbf5d7d973f8",
+      "uid" : "e65523f0c958846f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -459,125 +68,8 @@
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "4d2e8e78dfcba321",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628638348599,
-        "stop" : 1628638381507,
-        "duration" : 32908
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
-      "uid" : "6c3b2bfd39f84235",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628715026834,
-        "stop" : 1628715029038,
-        "duration" : 2204
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "b90be1b6142eb701",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628637489235,
-        "stop" : 1628637501806,
-        "duration" : 12571
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "a63bd6d1f6893fff",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1628631086876,
-        "stop" : 1628631091711,
-        "duration" : 4835
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
       "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "adbd9cf94de4178e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629635271,
-        "stop" : 1628629638063,
-        "duration" : 2792
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "e7718170f9516261",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1628638995288,
-        "stop" : 1628639008316,
-        "duration" : 13028
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "e46609c7e9848d3e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628639886222,
-        "stop" : 1628639909221,
-        "duration" : 22999
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "cba889a1f2b7f2bb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1628629631967,
-        "stop" : 1628629635269,
-        "duration" : 3302
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "69c922e541301951",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1628629339074,
-        "stop" : 1628629342116,
-        "duration" : 3042
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "3b1bf4b72465aba5",
+      "uid" : "f9b640ef2a2cf16",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -590,33 +82,332 @@
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "e444e8538fd779ea",
+      "uid" : "d3eba06b2f42ea41",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1628638804000,
-        "stop" : 1628638816373,
-        "duration" : 12373
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
-      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "81084179d5ae54b9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628629638063,
-        "stop" : 1628629640880,
-        "duration" : 2817
+        "start" : 1628638995288,
+        "stop" : 1628639008316,
+        "duration" : 13028
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "ac4fc14a921896be",
+      "uid" : "35909efbd59b5b12",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628719747369,
+        "stop" : 1628719749941,
+        "duration" : 2572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "24a0685a24607404",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628638273069,
+        "stop" : 1628638295556,
+        "duration" : 22487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "2715b45208bf89b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629342119,
+        "stop" : 1628629344803,
+        "duration" : 2684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "6cc385880589908a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628637717266,
+        "stop" : 1628637739783,
+        "duration" : 22517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
+      "uid" : "48aa0d1d4268c834",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628630207427,
+        "stop" : 1628630210381,
+        "duration" : 2954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "3a372c49990ea4bd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628719860975,
+        "stop" : 1628719865497,
+        "duration" : 4522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "39c901b633a68872",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628637976589,
+        "stop" : 1628637998599,
+        "duration" : 22010
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
+      "uid" : "af6e96b4ec90502e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628715144098,
+        "stop" : 1628715148275,
+        "duration" : 4177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "ceb4e4902ae8576a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629655785,
+        "stop" : 1628629658195,
+        "duration" : 2410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
+      "uid" : "66464629295c102",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637019864,
+        "stop" : 1628637023015,
+        "duration" : 3151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "81ae602df71e5046",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631793850,
+        "stop" : 1628631797305,
+        "duration" : 3455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "3a2228a85dfd2387",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629653822,
+        "stop" : 1628629655785,
+        "duration" : 1963
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "d4b064ddc1e9216c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628639798706,
+        "stop" : 1628639821682,
+        "duration" : 22976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "26b7c0d794462050",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629635271,
+        "stop" : 1628629638063,
+        "duration" : 2792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "845964c59deb1dc3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628629631967,
+        "stop" : 1628629635269,
+        "duration" : 3302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "bceb85b3e86ea2ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628638152247,
+        "stop" : 1628638174675,
+        "duration" : 22428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "6db748de53935311",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628638110662,
+        "stop" : 1628638143064,
+        "duration" : 32402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "a7c66da6a11f6047",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628639338183,
+        "stop" : 1628639350550,
+        "duration" : 12367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "7767f9509d7d19dd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628640227461,
+        "stop" : 1628640232199,
+        "duration" : 4738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "1996ba6a41f35968",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628638348599,
+        "stop" : 1628638381507,
+        "duration" : 32908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "55084c22baf6e778",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628719764552,
+        "stop" : 1628719770824,
+        "duration" : 6272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "92387a6c8369ed22",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628639431190,
+        "stop" : 1628639444347,
+        "duration" : 13157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "897c21279ec3049f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629528552,
+        "stop" : 1628629530698,
+        "duration" : 2146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "c193b505d68dae8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628632452085,
+        "stop" : 1628632457184,
+        "duration" : 5099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "195a390e206fffa7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -629,20 +420,85 @@
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "2f15bbd9e048ba36",
+      "uid" : "24af5064e0bbfeac",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1628637592744,
-        "stop" : 1628637615070,
-        "duration" : 22326
+        "start" : 1628640271884,
+        "stop" : 1628640276410,
+        "duration" : 4526
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "f378b8fcaeba80ac",
+      "uid" : "8bb1221e2a6c9cbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637489235,
+        "stop" : 1628637501806,
+        "duration" : 12571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "96033a39e975de15",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631344386,
+        "stop" : 1628631347052,
+        "duration" : 2666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "8641816460f327c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628632391492,
+        "stop" : 1628632394519,
+        "duration" : 3027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "2dbfb9c5436e40b1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628639289769,
+        "stop" : 1628639302185,
+        "duration" : 12416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "1e3d92b9b96304a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628639886222,
+        "stop" : 1628639909221,
+        "duration" : 22999
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "3fa8c1fd6005d15b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -655,18 +511,227 @@
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "fe9d89b3419428f0",
+      "uid" : "65c7b89fda341978",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1628631344386,
-        "stop" : 1628631347052,
-        "duration" : 2666
+        "start" : 1628631248749,
+        "stop" : 1628631251940,
+        "duration" : 3191
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "957c2e355800b021",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631448026,
+        "stop" : 1628631452395,
+        "duration" : 4369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "845f62e23a8ad009",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629650273,
+        "stop" : 1628629653822,
+        "duration" : 3549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
+      "uid" : "49f3c6554a89c8de",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628715026834,
+        "stop" : 1628715029038,
+        "duration" : 2204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "4ed8c119f9576084",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628631086876,
+        "stop" : 1628631091711,
+        "duration" : 4835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
+      "uid" : "1b6fb99146608e6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628630244463,
+        "stop" : 1628630247596,
+        "duration" : 3133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "763cea0d7b126bf9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628638804000,
+        "stop" : 1628638816373,
+        "duration" : 12373
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "122672ec85429ef4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628629339074,
+        "stop" : 1628629342116,
+        "duration" : 3042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "21ee3323c4e4d5e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628639668824,
+        "stop" : 1628639691020,
+        "duration" : 22196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "926f68b2aade1398",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637592744,
+        "stop" : 1628637615070,
+        "duration" : 22326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "cd5da4d9c0c62206",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628631208528,
+        "stop" : 1628631212390,
+        "duration" : 3862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "b3bb0f2cdfce26a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628719697034,
+        "stop" : 1628719701719,
+        "duration" : 4685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "3704882a6e654f14",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628639589055,
+        "stop" : 1628639611632,
+        "duration" : 22577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "f8cff7b81681ffe5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629638063,
+        "stop" : 1628629640880,
+        "duration" : 2817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+      "uid" : "781efc576c15aaab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628629530698,
+        "stop" : 1628629534031,
+        "duration" : 3333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+      "uid" : "164f35db13f7b369",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628630963538,
+        "stop" : 1628630966762,
+        "duration" : 3224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "67661fbf795cd65b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628639092295,
+        "stop" : 1628639104983,
+        "duration" : 12688
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ]
+  } ],
+  "name" : "timeline"
 }

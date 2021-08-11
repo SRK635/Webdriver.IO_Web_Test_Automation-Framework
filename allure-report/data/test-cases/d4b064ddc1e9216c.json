@@ -1,0 +1,123 @@
+{
+  "uid" : "d4b064ddc1e9216c",
+  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+  "fullName" : "Login functionality.As a user, I can able to login to the website successfully with my facebook credentials.",
+  "historyId" : "b25b680c9ab494cf8ad428c5637501d",
+  "time" : {
+    "start" : 1628639798706,
+    "stop" : 1628639821682,
+    "duration" : 22976
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628639798712,
+        "stop" : 1628639801003,
+        "duration" : 2291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628639801003,
+        "stop" : 1628639801302,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dda85c8811f1306",
+        "name" : "Screenshot",
+        "source" : "6dda85c8811f1306.png",
+        "type" : "image/png",
+        "size" : 79247
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on Facebook button",
+      "time" : {
+        "start" : 1628639801302,
+        "stop" : 1628639821680,
+        "duration" : 20378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ad9cbce06c583de",
+        "name" : "Screenshot",
+        "source" : "7ad9cbce06c583de.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to login to the website successfully with my facebook credentials."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4b064ddc1e9216c.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

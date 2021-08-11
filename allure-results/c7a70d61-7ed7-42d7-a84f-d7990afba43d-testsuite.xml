@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628719697022' stop='1628719701721'>
+    <name>Login functionality</name>
+    <title>Login functionality</title>
+    <test-cases>
+        <test-case start='1628719697034' status='passed' stop='1628719701719'>
+            <name>As a user, I can able to login to the website successfully with my facebook credentials.</name>
+            <title>As a user, I can able to login to the website successfully with my facebook credentials.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628719697044' status='passed' stop='1628719699563'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628719699564' status='passed' stop='1628719699781'>
+                    <name>When I accept cookies</name>
+                    <title>When I accept cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='12dbaead-93e8-4560-b75b-ba9b1248a25b-attachment.png' type='image/png' size='79247'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628719699781' status='passed' stop='1628719699956'>
+                    <name>And I click on Facebook button</name>
+                    <title>And I click on Facebook button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='549e4647-3365-4bb3-9481-5fbe1a2fdd93-attachment.png' type='image/png' size='54405'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628719699956' status='passed' stop='1628719701315'>
+                    <name>And I accept cookies from Facebook</name>
+                    <title>And I accept cookies from Facebook</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e5ffd526-93b5-4585-9fc5-f31afbcaff12-attachment.png' type='image/png' size='54470'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628719701315' status='passed' stop='1628719701716'>
+                    <name>Then I should see Facebook login Page</name>
+                    <title>Then I should see Facebook login Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='046a4ad8-46d8-4d22-b90a-6e78f68b838c-attachment.png' type='image/png' size='47719'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

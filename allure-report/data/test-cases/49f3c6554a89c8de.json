@@ -1,0 +1,137 @@
+{
+  "uid" : "49f3c6554a89c8de",
+  "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
+  "fullName" : "Login functionality.As a user, I can able to Reset my Password using Forgot Password Link",
+  "historyId" : "40fee9666b435f7a756ca56d4dc45ecb",
+  "time" : {
+    "start" : 1628715026834,
+    "stop" : 1628715029038,
+    "duration" : 2204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: Cannot read property 'click' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'click' of undefined\n                    at LoginPage.forgotPassword (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:46:38)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:42:21)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:25)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: Cannot read property 'click' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'click' of undefined\n                    at LoginPage.forgotPassword (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:46:38)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:42:21)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:25)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628715026837,
+        "stop" : 1628715028804,
+        "duration" : 1967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628715028805,
+        "stop" : 1628715029032,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec8266c60c1a0f3f",
+        "name" : "Screenshot",
+        "source" : "ec8266c60c1a0f3f.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on Forgot Password",
+      "time" : {
+        "start" : 1628715029032,
+        "stop" : 1628715029038,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read property 'click' of undefined\n                    at LoginPage.forgotPassword (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:46:38)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:42:21)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:25)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then I should see Password Problems page",
+      "time" : {
+        "start" : 1628715029039,
+        "stop" : 1628715029039,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to Reset my Password using Forgot Password Link"
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49f3c6554a89c8de.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

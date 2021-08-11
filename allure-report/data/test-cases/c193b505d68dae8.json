@@ -1,0 +1,234 @@
+{
+  "uid" : "c193b505d68dae8",
+  "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "fullName" : "Login functionality.As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "historyId" : "a10be81fd7452501ec05c5b754f8d38",
+  "time" : {
+    "start" : 1628632452085,
+    "stop" : 1628632457184,
+    "duration" : 5099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628632452088,
+        "stop" : 1628632456233,
+        "duration" : 4145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628632456233,
+        "stop" : 1628632456445,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c2f61552c215bac",
+        "name" : "Screenshot",
+        "source" : "5c2f61552c215bac.png",
+        "type" : "image/png",
+        "size" : 79247
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter asdf and j@1",
+      "time" : {
+        "start" : 1628632456446,
+        "stop" : 1628632456774,
+        "duration" : 328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b06f28db80a4c1bf",
+        "name" : "Screenshot",
+        "source" : "b06f28db80a4c1bf.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I validate show password functionality",
+      "time" : {
+        "start" : 1628632456774,
+        "stop" : 1628632457031,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d67c3f5f3f717268",
+        "name" : "Screenshot",
+        "source" : "d67c3f5f3f717268.png",
+        "type" : "image/png",
+        "size" : 54140
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I validate hide password functionality",
+      "time" : {
+        "start" : 1628632457031,
+        "stop" : 1628632457183,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12dc626baf346baf",
+        "name" : "Screenshot",
+        "source" : "12dc626baf346baf.png",
+        "type" : "image/png",
+        "size" : 54134
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to see the Password when I click on Show Password button in Password Field."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8641816460f327c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628632391492,
+        "stop" : 1628632394519,
+        "duration" : 3027
+      }
+    }, {
+      "uid" : "81ae602df71e5046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631793850,
+        "stop" : 1628631797305,
+        "duration" : 3455
+      }
+    }, {
+      "uid" : "957c2e355800b021",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631448026,
+        "stop" : 1628631452395,
+        "duration" : 4369
+      }
+    }, {
+      "uid" : "96033a39e975de15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631344386,
+        "stop" : 1628631347052,
+        "duration" : 2666
+      }
+    }, {
+      "uid" : "65c7b89fda341978",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628631248749,
+        "stop" : 1628631251940,
+        "duration" : 3191
+      }
+    }, {
+      "uid" : "cd5da4d9c0c62206",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality",
+      "time" : {
+        "start" : 1628631208528,
+        "stop" : 1628631212390,
+        "duration" : 3862
+      }
+    }, {
+      "uid" : "4ed8c119f9576084",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality",
+      "time" : {
+        "start" : 1628631086876,
+        "stop" : 1628631091711,
+        "duration" : 4835
+      }
+    }, {
+      "uid" : "164f35db13f7b369",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: element has zero size",
+      "time" : {
+        "start" : 1628630963538,
+        "stop" : 1628630966762,
+        "duration" : 3224
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c193b505d68dae8.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

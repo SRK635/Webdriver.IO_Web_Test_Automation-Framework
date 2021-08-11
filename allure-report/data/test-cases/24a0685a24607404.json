@@ -1,0 +1,128 @@
+{
+  "uid" : "24a0685a24607404",
+  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+  "fullName" : "Login functionality.As a user, I can able to login to the website successfully with my facebook credentials.",
+  "historyId" : "b25b680c9ab494cf8ad428c5637501d",
+  "time" : {
+    "start" : 1628638273069,
+    "stop" : 1628638295556,
+    "duration" : 22487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+  "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:103:38)\n                    at LoginPage.clickFacebook (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:97:9)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:50:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+    "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:103:38)\n                    at LoginPage.clickFacebook (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:97:9)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:50:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628638273073,
+        "stop" : 1628638275144,
+        "duration" : 2071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628638275145,
+        "stop" : 1628638275371,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "425edc8c7969b593",
+        "name" : "Screenshot",
+        "source" : "425edc8c7969b593.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on Facebook button",
+      "time" : {
+        "start" : 1628638275371,
+        "stop" : 1628638295556,
+        "duration" : 20185
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:103:38)\n                    at LoginPage.clickFacebook (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:97:9)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:50:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db647aac55e57f5b",
+        "name" : "Screenshot",
+        "source" : "db647aac55e57f5b.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to login to the website successfully with my facebook credentials."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24a0685a24607404.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

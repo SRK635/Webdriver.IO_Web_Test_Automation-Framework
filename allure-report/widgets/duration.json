@@ -1,15 +1,5 @@
 [ {
-  "uid" : "9fffaa7ee6159e28",
-  "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-  "time" : {
-    "start" : 1628632452085,
-    "stop" : 1628632457184,
-    "duration" : 5099
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9232293068d69786",
+  "uid" : "ceb4e4902ae8576a",
   "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
   "time" : {
     "start" : 1628629655785,
@@ -19,17 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f378b8fcaeba80ac",
-  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-  "time" : {
-    "start" : 1628640658884,
-    "stop" : 1628640663851,
-    "duration" : 4967
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f259cf9789ed26c",
+  "uid" : "1b6fb99146608e6a",
   "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
   "time" : {
     "start" : 1628630244463,
@@ -39,12 +19,32 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6e532f532e79d76a",
+  "uid" : "af6e96b4ec90502e",
   "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
   "time" : {
     "start" : 1628715144098,
     "stop" : 1628715148275,
     "duration" : 4177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a372c49990ea4bd",
+  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+  "time" : {
+    "start" : 1628719860975,
+    "stop" : 1628719865497,
+    "duration" : 4522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c193b505d68dae8",
+  "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
+  "time" : {
+    "start" : 1628632452085,
+    "stop" : 1628632457184,
+    "duration" : 5099
   },
   "status" : "passed",
   "severity" : "normal"

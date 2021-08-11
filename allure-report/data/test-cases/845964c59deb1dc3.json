@@ -1,0 +1,131 @@
+{
+  "uid" : "845964c59deb1dc3",
+  "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
+  "fullName" : "Login functionality.As a user, I can't able to login to the website when I enter invalid credentials",
+  "historyId" : "7f497b5d448a4a20ceba569a2b50d4b6",
+  "time" : {
+    "start" : 1628629631967,
+    "stop" : 1628629635269,
+    "duration" : 3302
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"We couldn't verify that you're not a robot. Try opening the app again.\"\n                Received string:    \"Incorrect username or password. Check your details and try again.\"\n                    at LoginPage.validateLoginServerError (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:51:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:26:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toContain(expected) // indexOf",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"We couldn't verify that you're not a robot. Try opening the app again.\"\n                Received string:    \"Incorrect username or password. Check your details and try again.\"\n                    at LoginPage.validateLoginServerError (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:51:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:26:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628629631971,
+        "stop" : 1628629633694,
+        "duration" : 1723
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628629633694,
+        "stop" : 1628629633796,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I login with justsivaramakrishna@gmail.com and August@95051",
+      "time" : {
+        "start" : 1628629633796,
+        "stop" : 1628629634199,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see login error message",
+      "time" : {
+        "start" : 1628629634199,
+        "stop" : 1628629635269,
+        "duration" : 1070
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"We couldn't verify that you're not a robot. Try opening the app again.\"\n                Received string:    \"Incorrect username or password. Check your details and try again.\"\n                    at LoginPage.validateLoginServerError (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:51:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:26:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can't able to login to the website when I enter invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "845964c59deb1dc3.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

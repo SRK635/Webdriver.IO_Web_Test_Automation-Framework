@@ -1,0 +1,418 @@
+{
+  "uid" : "3a372c49990ea4bd",
+  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+  "fullName" : "Login functionality.As a user, I can able to login to the website successfully with my facebook credentials.",
+  "historyId" : "b25b680c9ab494cf8ad428c5637501d",
+  "time" : {
+    "start" : 1628719860975,
+    "stop" : 1628719865497,
+    "duration" : 4522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628719860982,
+        "stop" : 1628719863503,
+        "duration" : 2521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628719863503,
+        "stop" : 1628719863752,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48de0fd342403c9",
+        "name" : "Screenshot",
+        "source" : "48de0fd342403c9.png",
+        "type" : "image/png",
+        "size" : 79223
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on Facebook button",
+      "time" : {
+        "start" : 1628719863752,
+        "stop" : 1628719863950,
+        "duration" : 198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d27de682435aff2",
+        "name" : "Screenshot",
+        "source" : "4d27de682435aff2.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I accept cookies from Facebook",
+      "time" : {
+        "start" : 1628719863951,
+        "stop" : 1628719865164,
+        "duration" : 1213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16632082552b6e5a",
+        "name" : "Screenshot",
+        "source" : "16632082552b6e5a.png",
+        "type" : "image/png",
+        "size" : 54450
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see Facebook login Page",
+      "time" : {
+        "start" : 1628719865164,
+        "stop" : 1628719865495,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c787ef7d3504aa0",
+        "name" : "Screenshot",
+        "source" : "9c787ef7d3504aa0.png",
+        "type" : "image/png",
+        "size" : 61570
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to login to the website successfully with my facebook credentials."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4e22f1e2a121642e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628719828818,
+        "stop" : 1628719834872,
+        "duration" : 6054
+      }
+    }, {
+      "uid" : "55084c22baf6e778",
+      "status" : "broken",
+      "statusDetails" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+      "time" : {
+        "start" : 1628719764552,
+        "stop" : 1628719770824,
+        "duration" : 6272
+      }
+    }, {
+      "uid" : "35909efbd59b5b12",
+      "status" : "broken",
+      "statusDetails" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+      "time" : {
+        "start" : 1628719747369,
+        "stop" : 1628719749941,
+        "duration" : 2572
+      }
+    }, {
+      "uid" : "b3bb0f2cdfce26a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628719697034,
+        "stop" : 1628719701719,
+        "duration" : 4685
+      }
+    }, {
+      "uid" : "3fa8c1fd6005d15b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628640658884,
+        "stop" : 1628640663851,
+        "duration" : 4967
+      }
+    }, {
+      "uid" : "195a390e206fffa7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1628640573867,
+        "stop" : 1628640578538,
+        "duration" : 4671
+      }
+    }, {
+      "uid" : "24af5064e0bbfeac",
+      "status" : "broken",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1628640271884,
+        "stop" : 1628640276410,
+        "duration" : 4526
+      }
+    }, {
+      "uid" : "7767f9509d7d19dd",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should see Facebook login Page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1628640227461,
+        "stop" : 1628640232199,
+        "duration" : 4738
+      }
+    }, {
+      "uid" : "1e3d92b9b96304a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628639886222,
+        "stop" : 1628639909221,
+        "duration" : 22999
+      }
+    }, {
+      "uid" : "d4b064ddc1e9216c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628639798706,
+        "stop" : 1628639821682,
+        "duration" : 22976
+      }
+    }, {
+      "uid" : "21ee3323c4e4d5e1",
+      "status" : "broken",
+      "statusDetails" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization",
+      "time" : {
+        "start" : 1628639668824,
+        "stop" : 1628639691020,
+        "duration" : 22196
+      }
+    }, {
+      "uid" : "3704882a6e654f14",
+      "status" : "broken",
+      "statusDetails" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization",
+      "time" : {
+        "start" : 1628639589055,
+        "stop" : 1628639611632,
+        "duration" : 22577
+      }
+    }, {
+      "uid" : "92387a6c8369ed22",
+      "status" : "broken",
+      "statusDetails" : "ReferenceError: windowHandles is not defined",
+      "time" : {
+        "start" : 1628639431190,
+        "stop" : 1628639444347,
+        "duration" : 13157
+      }
+    }, {
+      "uid" : "a7c66da6a11f6047",
+      "status" : "broken",
+      "statusDetails" : "ReferenceError: windowHandles is not defined",
+      "time" : {
+        "start" : 1628639338183,
+        "stop" : 1628639350550,
+        "duration" : 12367
+      }
+    }, {
+      "uid" : "2dbfb9c5436e40b1",
+      "status" : "broken",
+      "statusDetails" : "ReferenceError: windowHandles is not defined",
+      "time" : {
+        "start" : 1628639289769,
+        "stop" : 1628639302185,
+        "duration" : 12416
+      }
+    }, {
+      "uid" : "67661fbf795cd65b",
+      "status" : "broken",
+      "statusDetails" : "ReferenceError: windowHandles is not defined",
+      "time" : {
+        "start" : 1628639092295,
+        "stop" : 1628639104983,
+        "duration" : 12688
+      }
+    }, {
+      "uid" : "d3eba06b2f42ea41",
+      "status" : "broken",
+      "statusDetails" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+      "time" : {
+        "start" : 1628638995288,
+        "stop" : 1628639008316,
+        "duration" : 13028
+      }
+    }, {
+      "uid" : "e65578ae00478bc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628638880162,
+        "stop" : 1628638902557,
+        "duration" : 22395
+      }
+    }, {
+      "uid" : "763cea0d7b126bf9",
+      "status" : "broken",
+      "statusDetails" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+      "time" : {
+        "start" : 1628638804000,
+        "stop" : 1628638816373,
+        "duration" : 12373
+      }
+    }, {
+      "uid" : "1996ba6a41f35968",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628638348599,
+        "stop" : 1628638381507,
+        "duration" : 32908
+      }
+    }, {
+      "uid" : "24a0685a24607404",
+      "status" : "broken",
+      "statusDetails" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+      "time" : {
+        "start" : 1628638273069,
+        "stop" : 1628638295556,
+        "duration" : 22487
+      }
+    }, {
+      "uid" : "bceb85b3e86ea2ae",
+      "status" : "broken",
+      "statusDetails" : "Error: Malformed type for \"handle\" parameter of command switchToWindow",
+      "time" : {
+        "start" : 1628638152247,
+        "stop" : 1628638174675,
+        "duration" : 22428
+      }
+    }, {
+      "uid" : "6db748de53935311",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"//button[@data-testid=\"cookie-policy-dialog-accept-button\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1628638110662,
+        "stop" : 1628638143064,
+        "duration" : 32402
+      }
+    }, {
+      "uid" : "39c901b633a68872",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"//button[@data-testid=\"cookie-policy-dialog-accept-button\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1628637976589,
+        "stop" : 1628637998599,
+        "duration" : 22010
+      }
+    }, {
+      "uid" : "7481ad713717a0b8",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"//button[@data-testid=\"cookie-policy-dialog-accept-button\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1628637865014,
+        "stop" : 1628637887608,
+        "duration" : 22594
+      }
+    }, {
+      "uid" : "6cc385880589908a",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"//button[@data-testid=\"cookie-policy-dialog-accept-button\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1628637717266,
+        "stop" : 1628637739783,
+        "duration" : 22517
+      }
+    }, {
+      "uid" : "926f68b2aade1398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637592744,
+        "stop" : 1628637615070,
+        "duration" : 22326
+      }
+    }, {
+      "uid" : "8bb1221e2a6c9cbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637489235,
+        "stop" : 1628637501806,
+        "duration" : 12571
+      }
+    }, {
+      "uid" : "e65523f0c958846f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628637438889,
+        "stop" : 1628637441731,
+        "duration" : 2842
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a372c49990ea4bd.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

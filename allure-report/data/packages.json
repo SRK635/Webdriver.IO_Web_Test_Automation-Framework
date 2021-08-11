@@ -1,11 +1,10 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "Login functionality",
     "children" : [ {
       "name" : "As a user, I can't able to login to the website when I enter invalid credentials",
-      "uid" : "9232293068d69786",
+      "uid" : "ceb4e4902ae8576a",
       "parentUid" : "2845e274a6f5bc853fee402eef842b85",
       "status" : "passed",
       "time" : {
@@ -18,7 +17,7 @@
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can't able to login to the website when I left blank Username and Password fields.",
-      "uid" : "2f259cf9789ed26c",
+      "uid" : "1b6fb99146608e6a",
       "parentUid" : "2845e274a6f5bc853fee402eef842b85",
       "status" : "passed",
       "time" : {
@@ -31,7 +30,7 @@
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
       "name" : "As a user, I can able to see the Password when I click on Show Password button in Password Field.",
-      "uid" : "9fffaa7ee6159e28",
+      "uid" : "c193b505d68dae8",
       "parentUid" : "2845e274a6f5bc853fee402eef842b85",
       "status" : "passed",
       "time" : {
@@ -43,21 +42,8 @@
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
     }, {
-      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
-      "uid" : "f378b8fcaeba80ac",
-      "parentUid" : "2845e274a6f5bc853fee402eef842b85",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628640658884,
-        "stop" : 1628640663851,
-        "duration" : 4967
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.131" ]
-    }, {
       "name" : "As a user, I can able to Reset my Password using Forgot Password Link",
-      "uid" : "6e532f532e79d76a",
+      "uid" : "af6e96b4ec90502e",
       "parentUid" : "2845e274a6f5bc853fee402eef842b85",
       "status" : "passed",
       "time" : {
@@ -68,7 +54,21 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+      "uid" : "3a372c49990ea4bd",
+      "parentUid" : "2845e274a6f5bc853fee402eef842b85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628719860975,
+        "stop" : 1628719865497,
+        "duration" : 4522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
     } ],
     "uid" : "2845e274a6f5bc853fee402eef842b85"
-  } ]
+  } ],
+  "name" : "packages"
 }

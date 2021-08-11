@@ -1,0 +1,128 @@
+{
+  "uid" : "3704882a6e654f14",
+  "name" : "As a user, I can able to login to the website successfully with my facebook credentials.",
+  "fullName" : "Login functionality.As a user, I can able to login to the website successfully with my facebook credentials.",
+  "historyId" : "b25b680c9ab494cf8ad428c5637501d",
+  "time" : {
+    "start" : 1628639589055,
+    "stop" : 1628639611632,
+    "duration" : 22577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization\n                    at C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Browser.wrapCommandFn (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:103:29)\n                    at LoginPage.clickFacebook (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:93:29)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:50:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization\n                    at C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Browser.wrapCommandFn (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:103:29)\n                    at LoginPage.clickFacebook (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:93:29)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:50:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1628639589059,
+        "stop" : 1628639591233,
+        "duration" : 2174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I accept cookies",
+      "time" : {
+        "start" : 1628639591234,
+        "stop" : 1628639591449,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48f921155d28f444",
+        "name" : "Screenshot",
+        "source" : "48f921155d28f444.png",
+        "type" : "image/png",
+        "size" : 79247
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on Facebook button",
+      "time" : {
+        "start" : 1628639591449,
+        "stop" : 1628639611632,
+        "duration" : 20183
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: waitUntil condition failed with the following reason: Cannot access 'windowHandles' before initialization\n                    at C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Browser.wrapCommandFn (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:103:29)\n                    at LoginPage.clickFacebook (C:\\Users\\prabh\\Desktop\\depop2\\features\\pageobjects\\login.page.js:93:29)\n                    at World.<anonymous> (C:\\Users\\prabh\\Desktop\\depop2\\features\\step-definitions\\steps.js:50:5)\n                    at World.executeAsync (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\shim.js:284:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\prabh\\Desktop\\depop2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "489da9bf9306911b",
+        "name" : "Screenshot",
+        "source" : "489da9bf9306911b.png",
+        "type" : "image/png",
+        "size" : 54405
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can able to login to the website successfully with my facebook credentials."
+  }, {
+    "name" : "package",
+    "value" : "Login functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3704882a6e654f14.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}
